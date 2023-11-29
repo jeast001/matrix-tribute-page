@@ -1,0 +1,79 @@
+/* link css file here! */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: OCR A Std, monospace;
+  }
+  
+  #main {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: rgb(42, 239, 7);
+  }
+  
+  h1 {
+    padding: 25px;
+    text-shadow: 5px 5px 20px;
+  }
+  
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width: 500px;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px;
+  }
+  
+  #img-caption {
+    padding: 25px;
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    max-width: 100%;
+    width: 400px;
+    margin: 0 auto;
+    list-style-position: inside;
+  }
+  
+  ul > li {
+    padding: 25px;
+  }
+  
+  li {
+    border-bottom: 1px solid rgb(42, 239, 7);
+  }
+  
+  li::before {
+    content: "\a\a";
+    white-space: pre;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  div p {
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(189, 179, 179);
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  a:visited {
+    color: rgb(218, 221, 140)
+  }
+  
+  
